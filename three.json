@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "idk Set",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string"
+            },
+            "content": {
+                "type": "string"
+            },
+            "date": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "title",
+            "content",
+            "date"
+        ],
+        "title": "idk"
+    }
+}
