@@ -1,17 +1,25 @@
- [
-        {
-            "title": "test 1",
-            "content": "this is the content",
-            "date": "1/1/1900"            
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "idk Set",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string"
+            },
+            "content": {
+                "type": "string"
+            },
+            "date": {
+                "type": "string"
+            }
         },
-        {
-            "title": "test 2",
-            "content": "this is the content",
-            "date": "1/1/1900"
-        },
-        {
-            "title": "test 3",
-            "content": "this is the content",
-            "date": "1/1/1900"            
-        }
-    ]
+        "required": [
+            "title",
+            "content",
+            "date"
+        ],
+        "title": "idk"
+    }
+}
